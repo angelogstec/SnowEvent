@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class ProjectHitEvent implements Listener {
-    private HashMap<Player, Player> shooters = new HashMap<>();
+    private final HashMap<Player, Player> shooters = new HashMap<>();
 
 
     @EventHandler

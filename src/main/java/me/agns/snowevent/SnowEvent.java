@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.ArrayList;
 
 public final class SnowEvent extends JavaPlugin {
-    private static ArrayList<Team> teams = new ArrayList<>();
+    private static final ArrayList<Team> teams = new ArrayList<>();
 
 
     @Override

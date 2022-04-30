@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Team {
-    private String name;
-    private ArrayList<Player> players = new ArrayList<>();
+    private final String name;
+    private final ArrayList<Player> players = new ArrayList<>();
 
     public Team(String name) {
         this.name = name;
