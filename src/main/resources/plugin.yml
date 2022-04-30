@@ -1,0 +1,5 @@
+name: SnowEvent
+version: '${project.version}'
+main: me.agns.snowevent.SnowEvent
+api-version: 1.17
+authors: [ AGNS ]
